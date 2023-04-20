@@ -1,1 +1,1 @@
-# Video Streaming Server
+# Stream Server

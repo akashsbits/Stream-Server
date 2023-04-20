@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Stream</title>
+    <style>
+      body {
+        margin: 50px auto;
+        max-width: 750px;
+        font-family: monospace, "Lucida Console", Courier;
+        font-size: 22px;
+        color: #323232;
+        padding: 5px;
+      }
+      video {
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Video Stream</h2>
+    <!-- "controls" attribute allows to control video playback, including volume, seeking, and
+    pause/resume playback -->
+    <video id="videoPlayer" width="750" controls muted="muted" autoplay>
+      <source src="/video" type="video/mp4" />
+    </video>
+  </body>
+</html>
